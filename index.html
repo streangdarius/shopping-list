@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>The Minimalist: Add what you need!</title>
+  </head>
+  <body>
+    <wrapper class="container">
+      <h1 class="title"><span class="title-second">the</span><span class="title-third">minima</span>list</h1>
+      <form id="form">
+        <input type="text" class="input" id="input" placeholder="type item name here..." autocomplete="off">
+        <button type="submit" class="submit" id="submit"><i class="far fa-plus-square"></i></i>&nbspadd</button>
+      <div class="sort-container">
+        <button class="sort-button-up" id="sortUp"><i class="fas fa-sort-numeric-up"></i>&nbspAscending Order</button>
+        <button class="sort-button-down" id="sortDown"><i class="fas fa-sort-numeric-down-alt"></i>&nbspDescending Order</button>
+      </div>
+      <ul class="list" id="list">
+      </ul>
+      </form> 
+    </wrapper>    
+      <small>If you want to mark an item as bought <b class="click">left-click</b>. To delete an item <b class="click">right-click</b> on it. <span><i class="fas fa-mouse"></i></span></small> 
+    <script src="./scripts.js"></script>
+  </body>
+</html>
